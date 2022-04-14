@@ -7,7 +7,7 @@ SECRET_KEY = 'django-insecure-d3z+1e+r6d959*3)(g1+2@lz4imh*)q4tmm0tu2l7s#%7%xr^q
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'products_database',
         'HOST': 'localhost',
         'USER': 'root',
